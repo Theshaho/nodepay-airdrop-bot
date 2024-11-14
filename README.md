@@ -33,13 +33,17 @@ Before running the bot, you need to set up your configuration:
 To get your Bearer token:
 
 1. **Register for a Nodepay account**:
-   - Go to [Nodepay Registration Page](https://app.nodepay.ai/register?ref=3WZFKKi0Hbvi1sd) and sign up for an account.
+   - Go to [Nodepay Registration Page](https://app.nodepay.ai/register?ref=QQ51zuerWUH82iS) and sign up for an account.
 
 2. **Get your token**:
    - Open **DevTools** in your browser (right-click > Inspect or press `Ctrl+Shift+I`).
    - Go to the **Console** tab in DevTools.
-   - Type the following command to get your token:
+   - Type the following command so that you can find your token:
 
+     ```javascript
+     allow pasting
+     ```
+        - Then type the following command to get your token:
      ```javascript
      localStorage.getItem('np_webapp_token')
      ```
