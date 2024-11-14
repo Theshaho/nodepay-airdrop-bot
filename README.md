@@ -53,6 +53,11 @@ To get your Bearer token:
 3. **Paste the token in `token.txt`**:
    - Create a `token.txt` file in the root of your project and paste your token in the file (one token per line).
 
+     ```javascript
+     nano token.txt
+     ```
+     Then press Ctrl + X => Y
+     
 Example `token.txt`:
 
 ```text
@@ -121,9 +126,9 @@ Logs are stored in `bot.log` and can also be seen in the console.
 
 If you would like to support the development of this project, you can make a donation using the following addresses:
 
-- **Solana**: `GLQMG8j23ookY8Af1uLUg4CQzuQYhXcx56rkpZkyiJvP`
-- **EVM**: `0x960EDa0D16f4D70df60629117ad6e5F1E13B8F44`
-- **BTC**: `bc1p9za9ctgwwvc7amdng8gvrjpwhnhnwaxzj3nfv07szqwrsrudfh6qvvxrj8`
+- **Solana**: `EBbY1GskRSgwJcN3cuUCaZqk5zzpsr7A6ku7yg4TCGJa`
+- **EVM**: `0x895b2c93976f72E6dB0Bf88265a74f34733abd3D`
+- **BTC**: `tb1qfw8zztm67fjzgtru05udwtzq8f069fv8l7am2t`
 
 ## License
 
