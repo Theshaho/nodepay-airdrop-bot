@@ -89,6 +89,12 @@ Only required if you choose to use proxies when running the bot.
 To start the bot, run the following command:
 
 ```bash
+screen -S nodepaybot
+```
+
+Then
+
+```bash
 npm start
 ```
 
@@ -110,6 +116,8 @@ When you start the bot, you'll be prompted to:
    - Uses your device's IP address
    - Simpler setup
    - Good for single account usage
+
+Then press Ctl + A + D to detach from screen
 
 ## Logs
 
