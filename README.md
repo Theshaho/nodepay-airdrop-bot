@@ -56,7 +56,7 @@ To get your Bearer token:
      ```javascript
      nano token.txt
      ```
-     Then press Ctrl + X => Y
+     Then press Ctrl + X => Y => Enter
      
 Example `token.txt`:
 
