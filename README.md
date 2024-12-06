@@ -33,13 +33,17 @@ Before running the bot, you need to set up your configuration:
 To get your Bearer token:
 
 1. **Register for a Nodepay account**:
-   - Go to [Nodepay Registration Page](https://app.nodepay.ai/register?ref=3WZFKKi0Hbvi1sd) and sign up for an account.
+   - Go to [Nodepay Registration Page](https://app.nodepay.ai/register?ref=QQ51zuerWUH82iS) and sign up for an account.
 
 2. **Get your token**:
    - Open **DevTools** in your browser (right-click > Inspect or press `Ctrl+Shift+I`).
    - Go to the **Console** tab in DevTools.
-   - Type the following command to get your token:
+   - Type the following command so that you can find your token:
 
+     ```javascript
+     allow pasting
+     ```
+        - Then type the following command to get your token:
      ```javascript
      localStorage.getItem('np_webapp_token')
      ```
@@ -49,6 +53,11 @@ To get your Bearer token:
 3. **Paste the token in `token.txt`**:
    - Create a `token.txt` file in the root of your project and paste your token in the file (one token per line).
 
+     ```javascript
+     nano token.txt
+     ```
+     Then press Ctrl + X => Y => Enter
+     
 Example `token.txt`:
 
 ```text
@@ -80,6 +89,12 @@ Only required if you choose to use proxies when running the bot.
 To start the bot, run the following command:
 
 ```bash
+screen -S nodepaybot
+```
+
+Then
+
+```bash
 npm start
 ```
 
@@ -102,6 +117,8 @@ When you start the bot, you'll be prompted to:
    - Simpler setup
    - Good for single account usage
 
+Then press Ctl + A + D to detach from screen
+
 ## Logs
 
 The bot will log all activity, including:
@@ -117,9 +134,9 @@ Logs are stored in `bot.log` and can also be seen in the console.
 
 If you would like to support the development of this project, you can make a donation using the following addresses:
 
-- **Solana**: `GLQMG8j23ookY8Af1uLUg4CQzuQYhXcx56rkpZkyiJvP`
-- **EVM**: `0x960EDa0D16f4D70df60629117ad6e5F1E13B8F44`
-- **BTC**: `bc1p9za9ctgwwvc7amdng8gvrjpwhnhnwaxzj3nfv07szqwrsrudfh6qvvxrj8`
+- **Solana**: `EBbY1GskRSgwJcN3cuUCaZqk5zzpsr7A6ku7yg4TCGJa`
+- **EVM**: `0x895b2c93976f72E6dB0Bf88265a74f34733abd3D`
+- **BTC**: `tb1qfw8zztm67fjzgtru05udwtzq8f069fv8l7am2t`
 
 ## License
 
